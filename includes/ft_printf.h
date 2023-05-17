@@ -26,8 +26,8 @@
 typedef struct s_format
 {
 	char	specifier;
-	int		(*f)(va_list args, char specifier);
-}			t_format;
+	int	(*f)(va_list args, char specifier);
+}		t_format;
 
 // Prototypes
 

@@ -15,7 +15,7 @@
 int	ft_handle_pointer(va_list args, char specifier)
 {
 	unsigned long long	nbr;
-	int					len;
+	int			len;
 
 	(void)specifier;
 	nbr = va_arg(args, unsigned long long);

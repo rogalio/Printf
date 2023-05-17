@@ -16,7 +16,7 @@ int	ft_handle_chars(va_list args, char specifier)
 {
 	char	c;
 	char	*str;
-	int		len;
+	int	len;
 
 	if (specifier == 'c')
 	{
